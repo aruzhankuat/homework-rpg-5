@@ -11,33 +11,19 @@ public class AdventureResult {
     private final List<String> log = new ArrayList<>();
 
     public String getWinner() {
-        return winner;
-    }
-
+        return winner; }
     public void setWinner(String winner) {
-        this.winner = winner;
-    }
-
+        this.winner = winner; }
     public int getRounds() {
-        return rounds;
-    }
-
+        return rounds; }
     public void setRounds(int rounds) {
-        this.rounds = rounds;
-    }
-
+        this.rounds = rounds; }
     public String getReward() {
-        return reward;
-    }
-
+        return reward; }
     public void setReward(String reward) {
-        this.reward = reward;
-    }
-
+        this.reward = reward; }
     public void addLine(String line) {
-        log.add(line);
-    }
-
+        log.add(line); }
     public List<String> getLog() {
         return Collections.unmodifiableList(log);
     }
